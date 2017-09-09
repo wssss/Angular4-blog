@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: '微软雅黑', 'Microsoft YaHei', '宋体', Tahoma, Helvetica, Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: '微软雅黑', 'Microsoft YaHei', '宋体', Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 162px;
+}
+
+
+* {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+b {
+    font-weight: 400;
+}
+
+a {
+    color: #333;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+::selection {
+    background-color: #eee;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    word-spacing: 1px;
+    letter-spacing: 0.01em;
+}
+
+
+#single p,
+#page p {
+    margin-bottom: 25px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+figure {
+    margin-bottom: 25px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-responsive-center img {
+    margin: 0 auto;
+}
+
+.height-40px {
+    margin-bottom: 40px;
+}
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
