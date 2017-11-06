@@ -1,3 +1,25 @@
-<p>
-  posts works!
-</p>
+<div class="row">
+	<div class="col-md-8">
+		<article class="post post-1" *ngFor="let post of postList">
+			<header class="entry-header">
+				<h1 class="entry-title">
+					<a [routerLink]="['/post', post.id]">{{post.title}}</a>
+				</h1>
+				<div class="entry-meta">
+					<span class="post-category"><a href="#">{{post.category}}</a></span>
+					<span class="post-date">
+						<a href="#">{{post.postTime}}</a>
+					</span>
+					<span class="views-count"><a href="#">588阅读</a></span>
+				</div>
+			</header>
+			<div class="entry-content clearfix">
+				<p>{{ post.remark }}</p>
+				<div class="read-more cl-effect-14">
+					<a [routerLink]="['/post', 1]" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+				</div>
+			</div>
+		</article>
+	</div>
+	
+</div>

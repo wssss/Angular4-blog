@@ -1,0 +1,25 @@
+{
+    "total":3,
+    "items":[
+        {   "postId":1,
+            "title":"javascript原型",
+            "category":"深入javascript",
+            "postTime":"2017-05-17 10:44",
+            "userId":"1",
+            "remark":"ECMAScript 5中引入了一个新的方法：Object.create(),可以调用这个方法来穿件一个新对象，而新对象的原型就是调用create的第一个参数2.使用构造器创建对象"
+        },
+        {   "postId":2,
+            "title":"类的创建方式",
+            "category":"深入javascript",
+            "postTime":"2016-11-21 10:44",
+            "userId":"2",
+            "remark":"方法一：通过ts编译出的。方法二：传统的创建方式,1.第一种用闭包形成了一个局部作用域，代码里看着没区别 但是如果你在第一种的自执行函数里写个变量，方法啥的，这个变量或者方法就成了类的私有变量 而第二种完全暴露在global作用域里，是不存在私有变量的"
+        },
+        {   "postId":3,
+            "title":"快排",
+            "category":"深入javascript",
+            "postTime":"2016-11-21 10:44",
+            "userId":"3",
+            "remark":"快速排序的核心思想"
+        }
+]}
